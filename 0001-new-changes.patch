@@ -1,0 +1,25 @@
+From 43b5151fd017e36624308f0e2479e2a18b7a8f2a Mon Sep 17 00:00:00 2001
+From: ANJALICHOUDHARY24820 <anjalichoudhary24820@gmail.com>
+Date: Mon, 11 Sep 2023 20:17:57 +0530
+Subject: [PATCH] new changes
+
+---
+ client3.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/client3.py b/client3.py
+index 05baa94..ffe2b62 100644
+--- a/client3.py
++++ b/client3.py
+@@ -37,7 +37,7 @@ def getDataPoint(quote):
+     bid_price = float(quote['top_bid']['price'])
+     ask_price = float(quote['top_ask']['price'])
+     price = (bid_price+ask_price)/2
+-    return stock, bid_price, ask_price, prices
++    return stock, bid_price, ask_price, price
+     #return the price an dthe stock
+ 
+ 
+-- 
+2.42.0.windows.2
+
